@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+} */
+
+input {
+    width: 300px;
+}
+
+.title {
+    margin-bottom: 50px;
+    position: absolute;
+}
+
+.answers {
+    font-size: 150%;
+}
+
+.answers > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 10%;
+}
+
+span {
+    margin-left: 25px;
+    color: white;
+}
+
+.zero {
+    background: red;
+}
+
+.one {
+    background: blue;
+}
+
+.two {
+    background: green;
+}
+
+.three {
+    color: black;
+    background: yellow;
+}
+
+.warning {
+    color: red;
+}
